@@ -1,0 +1,27 @@
+.About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.paragraph{
+    color: whitesmoke;
+    text-align:center;
+    font-size: 20px;
+}
+.aboutleft{
+    width: 50%;
+    filter: drop-shadow(7px 7px 7px #222);
+}
+.aboutleft img{
+    width: 80%;
+
+}
+.aboutright{
+    width: 50%;
+ 
+}
+.aboutright h1{
+    background-color: #6ab0d8;
+    filter: drop-shadow(7px 7px 7px #222);
+}

@@ -1,0 +1,45 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hometext {
+    float: left;
+    padding: 100px;
+    padding-top: 100px;
+    padding-left: 150px;
+    color: rgb(10, 10, 10);
+    text-transform: capitalize;
+}
+
+.red {
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+.blue {
+    background-color: rgb(143, 145, 245);
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+.img {
+    width: 600px;
+    height: auto;
+    margin-top: 60px;
+    filter: drop-shadow(20px 20px 20px #222);
+    color: white;
+    z-index: -1;
+   
+}
+/* .hometext img{
+    width: 200px;
+    height: auto;
+    margin-top: 60px;
+    filter: drop-shadow(10px 10px 10px #222);
+    color: white;
+} */
